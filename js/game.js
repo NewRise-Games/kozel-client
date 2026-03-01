@@ -47,6 +47,7 @@ export class Game {
 
             if (data.type === "start") {
                 console.log("Game started by server");
+                this.start();
             }
 
             if (data.type === "play") {
